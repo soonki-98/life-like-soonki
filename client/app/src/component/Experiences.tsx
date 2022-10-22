@@ -6,7 +6,7 @@ import color from "../common/style/theme";
 export default function Experiences() {
   return (
     <ExperienceWrapper id="['Experience', 'carbon:list-boxes']">
-      <Experience theme="vertical" title="What I did" historyList={historyList} />
+      <Experience id="experience" theme="vertical" title="What I did" historyList={historyList} />
     </ExperienceWrapper>
   );
 }
@@ -20,5 +20,6 @@ const ExperienceWrapper = styled.div`
   .btaNPO {
     background-color: #fff;
     border-radius: 6px;
+    width: 30em;
   }
 `;
