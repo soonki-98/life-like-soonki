@@ -36,6 +36,9 @@ const TechStackListWrapper = styled.div`
   background-color: ${color.mainColor};
   padding-top: 1px;
   padding-bottom: 1rem;
+  svg {
+    color: #fff;
+  }
 `;
 
 const TechStackLists = styled.div`

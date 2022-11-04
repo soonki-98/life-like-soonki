@@ -17,7 +17,8 @@ const ExperienceWrapper = styled.div`
   .title {
     color: #fff;
   }
-  .btaNPO .jzHqAm {
+  .dmUXNW,
+  .jzHqAm {
     background-color: #fff;
     border-radius: 6px;
     width: 30em;
