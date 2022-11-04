@@ -28,7 +28,8 @@ const Wrapper = styled.div`
   display: flex;
   width: 100vw;
   #Intro,
-  .zLmIh {
+  .zLmIh,
+  .bYOwvz {
     width: 90%;
   }
 `;

@@ -5,6 +5,8 @@ import color from "../common/style/theme";
 function TechTalks() {
   return (
     <CarouselWrap id="['TechTalk', 'bx:carousel']">
+      <h1>TECH TALKS</h1>
+      <hr />
       <Carousel isAutoplayControl={false} isArrowShow={false} isAutoplay autoplaySpeed={1000 * 7}>
         <Image
           src={require("../assets/images/techTalk/browser.png")}
@@ -38,6 +40,13 @@ export default TechTalks;
 const CarouselWrap = styled.div`
   background-color: ${color.mainColor};
   padding: 2em 0;
+  h1 {
+    color: #fff;
+    margin: 30px 60px;
+  }
+  hr {
+    width: 95%;
+  }
   svg {
     color: #fff;
   }
