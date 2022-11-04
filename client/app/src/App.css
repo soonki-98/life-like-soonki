@@ -5,6 +5,10 @@ body {
   background-color: #111829;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   font-family: "Noto Sans KR", sans-serif;
 }
